@@ -1,0 +1,99 @@
+body {
+	background: url(./assets/images/mustang.jpg) no-repeat fixed center;
+}
+
+h1 {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 4em;
+	color:red;
+}
+
+h3 {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	color: #DCDCDC;
+}
+
+p {
+	text-align: center;
+	color: #DCDCDC;
+}
+
+#board {
+	background-color: rgba(180,180,180, 0.6);
+	color: red;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 2em;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	text-align: center;
+	letter-spacing: 1em;
+
+}
+
+#hangmanPic {
+	display: block;
+	margin: auto;
+	width: 125%;
+	height: 125%;
+}
+
+#usedLetters {
+	background-color: rgba(180,180,180, 0.6);
+	font-family: 'BenchNine', sans-serif;
+	font-size: 2em;
+	letter-spacing: 0.5em;
+	color: red;
+	border-top: 2px solid black;
+	padding: 10px;
+}
+
+#wins {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 1.5em;
+	color: red;
+}
+
+#guesses {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 1.5em;
+	color: red;
+}
+
+#game-over {
+	padding: 1em;
+}
+
+.jumbotron {
+	background-color: #000080;
+	margin-top: 1em;
+	padding: 1em;
+}
+
+.scoreBoard {
+	margin-top: 1em;
+	background-color: #000080;
+	padding: 10px;
+	border: 4px solid black;
+}
+
+.about {
+	margin-top: 1em;
+	background-color: #000080;
+	padding: 10px;
+	border: 4px solid black;
+}
+
+.hidden {
+	visibility: hidden;
+	opacity: 1;
+}
+
+.fade-out {
+	font-family: 'BenchNine', sans-serif;
+	color: red;
+	font-size: 2em;
+	visibility: show;
+	opacity: 0;
+	transition: opacity 5s linear;
+
+}
